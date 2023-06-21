@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin : 0px;
+    padding : 0px;
+    /*display:flex;
+    justify-content:space-between;*/
+}
+
+/* <--------------------------------- STRUCTURE ----------------------------------------> */
+
+.container {
+    /*background-color : yellow;*/
+    height: 100vh;
+    width : 100vw;
+}
+
+.logo img{
+    height: 10vh;
+    width: 14vh;
+}
+
+.formsection {
+    /*background-color: green;*/
+    position: absolute;
+    height: 80vh;
+    width: 45vw;
+    margin-left: 134px;
+    margin-top: 76px;
+    top: 0px;
+    
+}
+
+
+.sidebar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: yellow;
+    float: left;
+    height: 100vh;
+    width: 18vw;
+}
+
+.blacksquare {
+    position: absolute;
+    right: 0px;
+    bottom: 22px;
+    top: 0px;
+    margin-top: 72px;
+    z-index: 9;
+    height: 72vh;
+    width: 50vw;
+    float: left;
+   /* background-color: black;*/
+}
+
+.blacksection {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 35px;
+    right: 0px;
+    background-color: black;
+    float: left;
+    height: 68vh;
+    width: 47vw;
+}
+
+.smallsquare {
+    background-color: yellow;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 12px;
+    float: right;
+    height: 9vh;
+    width: 9vh;
+}
+
+.MainHeading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 47px;
+}
+
+.about p{
+    font-family: 'Noto Sans', sans-serif;
+    color: grey;
+    font-size: unset;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.formsection form div{
+    display: flex;
+    flex-direction: column;;
+}
+.mb-frm {
+    font-family: 'Poppins', sans-serif;
+    width: 34vw;
+}
+
+.mb-frm input{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 14px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.btn {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 24px;
+    width: 34vw;
+    height: 47px;
+    background: black;
+    color: white;
+    font-size: revert;
+    font-weight: 1000;
+
+}
+
+.info {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 70px;
+    margin-top: 32px;
+    
+}
+
+.one-set {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.one-set img {
+    width: 6vw;
+    height: 6vw;
+}
+.text {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin-top: 24px;
+}
